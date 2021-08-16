@@ -28,7 +28,7 @@ jar {
 
         attributes(
                 'Class-Path': configurations.implementation.collect { it.getName() }.join(' '),
-                'Main-Class': 'com.statefarm.Application'
+                'Main-Class': 'com.statefarm.SomeProgram'
         )
     }
 }
